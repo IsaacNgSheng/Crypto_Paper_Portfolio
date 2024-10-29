@@ -1,9 +1,10 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
+import { VUE_APP_FIREBASE_API_KEY } from '../config.js';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAnpIFP5CU_HaFTv8IE7jjDajt23mkkX9E",
+    apiKey: VUE_APP_FIREBASE_API_KEY,
     authDomain: "democpp-bd703.firebaseapp.com",
     projectId: "democpp-bd703",
     storageBucket: "democpp-bd703.appspot.com",

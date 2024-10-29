@@ -5,19 +5,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "ccxt": "^4.2.54",
+    "dotenv": "^16.4.5",
     "firebase": "^10.8.1",
     "http-proxy-agent": "^7.0.2",
     "https-proxy-agent": "^7.0.4",
+    "save": "^2.9.0",
     "socks-proxy-agent": "^8.0.2",
     "vue": "^3.3.4",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.4",
-    "vite": "^4.4.9"
+    "vite": "^4.5.5"
   }
 }
